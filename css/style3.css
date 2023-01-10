@@ -1,0 +1,17 @@
+/* CSS situation numéro 3 */
+div#bloc1 {
+    position: relative;
+    ;    
+}
+div#bloc2 {
+
+    left: 200px;
+    padding: 30px;
+}
+div#bloc3 {
+    position: absolute;
+    padding: 30px;
+    top: 150px;
+    left: 150px;
+
+}

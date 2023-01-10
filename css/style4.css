@@ -1,0 +1,21 @@
+/* CSS situation numéro 4 */
+#bloc1 {
+    position: relative;   
+}
+#bloc2 {
+    position:absolute;
+    top: 200px;
+    left: 500px;
+}
+#bloc3 {
+    position: relative;
+    padding: 50px;
+ 
+
+}
+#bloc4 {
+    position: absolute;
+    padding: 25px;
+    top: 150px;
+    left: 125px; 
+}

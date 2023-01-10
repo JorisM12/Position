@@ -1,0 +1,226 @@
+/* CSS principal*/
+.green {
+    background-color: green;
+    border: 2px solid black; 
+}
+.blue {
+    background-color: blue;
+    border: 2px solid black; 
+}
+.yellow {
+    background-color:yellow;
+    border: 2px solid black; 
+}
+.pink {
+    background-color: pink;
+    border: 2px solid black; 
+}
+.grey {
+    background-color: rgb(153, 86, 97);
+    border: 2px solid black; 
+}
+.marge {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* CSS situation numéro 1 */
+#bloc1_1 {
+    padding: 30px;
+}
+#bloc2_1 {
+    padding: 30px;
+}
+#bloc3_1 {
+    padding: 30px;
+}
+
+/* CSS situation numéro 2 */
+#bloc1_2 {
+    position: relative;   
+}
+#bloc2_2 {
+    position: relative;
+    left: 200px;
+    padding: 30px;
+}
+#bloc3_2 {
+    position: relative;
+    padding: 30px;
+    right: 800px;
+}
+
+/* CSS situation numéro 3 */
+#bloc1_3 {
+    padding: 50px; 
+    position: relative;
+}
+#bloc2_3 {
+    padding: 50px;
+}
+#bloc3_3 {
+    position: absolute;
+    padding: 30px;
+    top:  250px;
+    left: 450px;
+}
+
+/* CSS situation numéro 4 */
+#bloc1_4 {
+    position: relative;   
+    height: 100px;
+}
+#bloc2_4 {
+    position:absolute;
+    padding: 30px;
+    top: 200px;
+    left: 500px;
+}
+#bloc3_4 {
+    position: relative;
+    padding: 50px;
+ 
+
+}
+#bloc4_4 {
+    position: absolute;
+    padding: 25px;
+    top: 150px;
+    left: 125px; 
+}
+
+/* CSS situation numéro 5 */
+section {
+    position: relative;
+}
+#bloc1 {
+    position: absolute; 
+    left: 400px; 
+    top: 200px; 
+    padding: 200px;
+}
+#bloc2 {
+    position:absolute;
+    top: 20px;
+    left: 10px;
+    padding: 80px;
+}
+#bloc5 {
+    position:absolute;
+    top: 0px;
+    left: 200px;
+    padding:80px;
+    border: 2px solid black;
+
+}
+#bloc3 {
+    position:absolute;
+    top: 200px;
+    left: 0px;
+    padding:80px;
+
+}
+#bloc4 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    padding: 80px;
+    
+}
+ 
+.grey{
+    background-color: grey;
+}
+
+/* CSS situation numero 6  */
+
+#bloc1_6 {
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+
+#bloc2_6 {
+    height: 250px;
+    width: 250px;
+    position:absolute;
+    margin: 50px;
+    z-index: 50;
+    opacity: 0.8;
+}
+#bloc3_6 {
+    height: 250px;
+    width: 250px;
+}
+#bloc4_6 {
+    height: 250px;
+    width: 250px;
+    position: fixed;
+    left: 500px;
+    top: 300px;
+    z-index: 25;
+
+}
+#bloc5_6 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    margin: 50px;
+    right: 660px;   
+    top: 300px;
+    
+}
+
+
+/* CSS situation numero 7  */
+
+#bloc1_7 {
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+
+#bloc2_7 {
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+#bloc3_7 {
+    height: 250px;
+    width: 1062px;
+    float: left;
+}
+#bloc4_7 {
+    height: 250px;
+    width: 250px;
+    float: right;
+
+}
+#bloc5_7 {
+    height: 250px;
+    width: 250px;
+    float: right;      
+}
+/* CSS situation numéro 8 */
+
+#nav_b {
+    max-width: 20%;
+    top: 1px;
+    position: sticky;
+    z-index: 50;
+    background-color: orange;
+    width: 100px;
+    border-radius: 15%;
+}
+section#sectionA #para {
+    padding-left: 400px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 1px;
+    background-color: brown;
+}
+
+

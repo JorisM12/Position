@@ -1,0 +1,42 @@
+/* CSS situation numéro 5 */
+section {
+    position: relative;
+}
+#bloc1 {
+    position: absolute; 
+    left: 400px; 
+    top: 200px; 
+    padding: 200px;
+}
+#bloc2 {
+    position:absolute;
+    top: 20px;
+    left: 10px;
+    padding: 80px;
+}
+#bloc5 {
+    position:absolute;
+    top: 0px;
+    left: 200px;
+    padding:80px;
+    border: 2px solid black;
+
+}
+#bloc3 {
+    position:absolute;
+    top: 200px;
+    left: 0px;
+    padding:80px;
+
+}
+#bloc4 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    padding: 80px;
+    
+}
+ 
+.grey{
+    background-color: grey;
+}
